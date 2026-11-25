@@ -1,0 +1,35 @@
+ IN THIS WE'LL SEE THE VERSIONING IN NODE js
+
+ for example express latest version is 5.3.0
+
+ 5.3.0 has three parts
+
+1st part -> 5
+2nd part -> 3
+3rd part -> 0
+
+3rd part (Last part)
+minor update 
+optional to update
+
+2nd part 
+Big bug fix (eg security bug fix)
+Recomended to update
+
+1st part 
+major release 
+major / breaking update 
+if we update it in existing code it maybe possible that code will break and not run however we should always use updated realease in new project
+
+we can install like 
+npm i express
+npm i express@5.3.1(the exact version we want)
+
+Express = ^5.3.0
+
+^ carrot sign means compatible with versions 
+if means install all the recomended and minor updates automatically but keep 5 as a version still
+
+Express = ~5.3.0
+
+~ if we have this symbol this means only update the minor updates automatically not hte recomended as in ^ symbol
